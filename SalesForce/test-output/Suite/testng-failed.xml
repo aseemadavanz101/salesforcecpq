@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.realestate.testscripts.AddOpportunityForm">
+        <methods>
+          <include name="addOpportunityForm"/>
+        </methods>
+      </class> <!-- com.realestate.testscripts.AddOpportunityForm -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.realestate.testscripts.AddOpportunityForm">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initializeClass"/>
+          <include name="addOpportunityForm"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.realestate.testscripts.AddOpportunityForm -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

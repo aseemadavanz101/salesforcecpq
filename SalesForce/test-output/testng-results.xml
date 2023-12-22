@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test: Default test_addAndRemoveQuote]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="155438" started-at="2023-12-22T07:13:58Z" finished-at="2023-12-22T07:16:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="155438" started-at="2023-12-22T07:13:58Z" finished-at="2023-12-22T07:16:33Z">
+      <class name="com.salesforce.testscripts.CreateQuoteForm">
+        <test-method status="PASS" signature="initializeClass()[pri:0, instance:com.salesforce.testscripts.CreateQuoteForm@6442b0a6]" name="initializeClass" is-config="true" duration-ms="13643" started-at="2023-12-22T01:13:58Z" finished-at="2023-12-22T01:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.salesforce.testscripts.CreateQuoteForm@6442b0a6]" name="init" is-config="true" duration-ms="0" started-at="2023-12-22T01:14:11Z" finished-at="2023-12-22T01:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addAndRemoveQuote()[pri:0, instance:com.salesforce.testscripts.CreateQuoteForm@6442b0a6]" name="addAndRemoveQuote" duration-ms="141742" started-at="2023-12-22T01:14:11Z" finished-at="2023-12-22T01:16:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test: Default test_addAndRemoveQuote]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAndRemoveQuote -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.salesforce.testscripts.CreateQuoteForm@6442b0a6]" name="afterMethod" is-config="true" duration-ms="28" started-at="2023-12-22T01:16:33Z" finished-at="2023-12-22T01:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAndRemoveQuote status=SUCCESS method=CreateQuoteForm.addAndRemoveQuote()[pri:0, instance:com.salesforce.testscripts.CreateQuoteForm@6442b0a6] output=Test: Default test_addAndRemoveQuote]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.salesforce.testscripts.CreateQuoteForm@6442b0a6]" name="tearDown" is-config="true" duration-ms="1968" started-at="2023-12-22T01:16:33Z" finished-at="2023-12-22T01:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.testscripts.CreateQuoteForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
