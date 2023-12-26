@@ -5,7 +5,7 @@
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Testing12">
+  <test name="Test">
     <classes>
       <class name="com.salesforce.testscripts.CreateQuoteForm">
 	      <methods>
